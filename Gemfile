@@ -45,6 +45,6 @@ gem 'unicorn'
 # To use debugger
 # gem 'debugger'
 
-platforms :mswin do
-  # gems specific to windows
+group :production do
+  gem 'unicorn'
 end

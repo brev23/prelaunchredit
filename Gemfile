@@ -45,4 +45,10 @@ gem 'unicorn'
 # To use debugger
 # gem 'debugger'
 
-gem 'thin'
+platforms :ruby do # linux
+  gem 'unicorn'
+end
+
+platforms :mswin do
+  # gems specific to windows
+end

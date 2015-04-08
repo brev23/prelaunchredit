@@ -48,3 +48,7 @@ gem 'unicorn'
 group :production do
   gem 'unicorn'
 end
+
+platforms :mswin do
+  # gems specific to windows
+end

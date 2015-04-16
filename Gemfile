@@ -28,8 +28,6 @@ end
 
 gem 'delayed_job_active_record'
 
-gem 'unicorn'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -47,8 +45,4 @@ gem 'unicorn'
 
 group :production do
   gem 'unicorn'
-end
-
-platforms :mswin do
-  # gems specific to windows
 end
